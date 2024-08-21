@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Equipe Santana</title>
+    <style>
+        body {
+            background: linear-gradient(#c2462d, #283561, #062547);
+            color: #fff;
+            font-family: Arial, sans-serif;
+            margin: 0;
+        }
+        .navbar {
+            background-color: #0e1318;
+            padding: 15px 0;
+        }
+        .navbar ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+        }
+        .navbar li {
+            margin: 0 10px; /* Reduzi a margem para telas menores */
+        }
+        .navbar a {
+            text-decoration: none;
+            color: #fff;
+            font-size: 18px;
+        }
+        .navbar a:hover {
+            color: #12171b;
+        }
+        .container, .foto1, .foto2, .ultima {
+            text-align: center;
+            padding: 20px;
+        }
+        .container img, .foto1 img, .foto2 img, .ultima img {
+            width: 100%; /* Alterei a largura para ocupar 100% da largura do contêiner */
+            max-width: 400px; /* Adicionei uma largura máxima para evitar que a imagem fique muito grande em telas grandes */
+            border-radius: 5%;
+        }
+        .container h3, .foto1 h3, .foto2 h3, .ultima h3 {
+            line-height: 24px;
+            margin-top: 10px;
+        }
+
+        @media only screen and (max-width: 600px) {
+            /* Estilos específicos para telas menores (menos de 600 pixels de largura) */
+            .navbar li {
+                margin: 0 5px;
+            }
+            .navbar a {
+                font-size: 16px; /* Reduzi o tamanho da fonte para telas menores */
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <ul>
+            <li><a href="principal.html">Início</a></li>
+            <li><a href="sobre.html">Sobre</a></li>
+            <li><a href="contato.html">Contato</a></li>
+        </ul>
+    </div>
+    <div class="container">
+        <img src="FOTO3.jpg" alt="Descrição da imagem 1">
+        <h3> Bom, somos responsáveis pelo maior curso de bombeiro infanto juvenil da Feitoria, 
+            nosso curso é focado em ensinar sobre disciplina, aprendizagem e o mais importante, 
+            educação. Este projeto é para o público dos 5 aos 17 anos, com uma base de ensino muito dinâmica, 
+            com vários tipos de ensino. Trabalhamos com ensino didático, temos o teórico e prático... 
+            (continuação do texto) </h3>
+    </div>
+    <div class="foto1">
+        <img src="FOTO5.jpg" alt="Descrição da imagem 2">
+        <h3>Temos os treinamentos noturnos, onde aprendemos a resgatar uma vítima, 
+            simulamos tudo de forma real como se fosse verdade. Tivemos ótimos desempenhos 
+            dos alunos com as macas, imobilização da vítima, enfachamento de fraturas, 
+            coluna cervical contida e tudo da melhor forma possível.</h3>
+    </div>
+    <div class="foto2">
+        <img src="FOTO6.jpg" alt="Descrição da imagem 3">
+        <h3>Começamos as aulas a partir das 9 e o horário final é até as 11, focamos nos alongamentos para que o desempenho dos alunos seja o melhor possível. Além de tudo isso, eles vão ter alongamentos em área livre para melhorar o condicionamento físico.</h3>
+    </div>
+    <div class="ultima">
+        <img src="FOTO4.jpg" alt="Descrição da imagem 4">
+        <h3>Final de tudo...</h3>
+    </div>
+</body>
+</html>
